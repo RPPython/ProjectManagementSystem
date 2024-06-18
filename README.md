@@ -12,7 +12,10 @@ does in the system.
 
 **Login to the system**
 
-The administrator can login to the system by entering their login username and password.
+The administrator can login to the system by entering their login:
+
+    * username 
+    * password
 
 
 **Administrator Options**
