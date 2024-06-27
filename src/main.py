@@ -1,7 +1,7 @@
-from manegments_system.menu import show_menu
-from manegments_system.user import User
-from manegments_system.user_manager import UserManager
-from manegments_system.admin import Admin
+from src.menu import show_menu
+from src.user import User
+from src.user_managment import UserManager
+from src.admin_login import Admin
 
 def main():
     # admin_name, admin_dob, admin_address = admin_login()
