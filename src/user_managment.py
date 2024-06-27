@@ -1,3 +1,5 @@
+import os
+
 class UserManager:
     def __init__(self, db_file='user_db.txt'):
         self.users = []
