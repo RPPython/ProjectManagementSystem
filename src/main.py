@@ -4,15 +4,15 @@ from src.user_managment import UserManager
 from src.admin_login import Admin
 
 def main():
-    # admin_name, admin_dob, admin_address = admin_login()
+    # admin_username, admin_pin_cod = admin_login()
     admin = Admin()
     if admin.logged_in:
-        print(admin.name)
+        print(admin.username)
     else:
         print('Admin is not loggedin. Buy!')
         exit() # exit the program
 
-    user_manager = UserManager()
+    user_managment = UserManager()
     user = User()
 
     while True:
