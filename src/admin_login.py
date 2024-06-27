@@ -14,4 +14,4 @@ class Admin:
             print("\nHello! Welcome, to the user managment system!")
             self.logged_in = True
         else:
-            print("Invalid login data. Please try again.")
+            print("Invalid username or pin code. Please try again.")
