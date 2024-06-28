@@ -8,4 +8,4 @@ class User:
         self.pin_code = pin_code
 
     def __str__(self):
-        return f'{self.name} {self.surname}, {self.dob}, {self.address}, {self.username}, {self.pin_code}'
+        return f'Name: {self.name}, Surname: {self.surname}, DOB: {self.dob}, Address: {self.address}, Username: {self.username}, PIN: {self.pin_code}'
