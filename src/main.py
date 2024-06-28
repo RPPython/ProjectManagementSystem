@@ -1,7 +1,7 @@
-from src.menu import show_menu
-from src.user import User
-from src.user_managment import UserManager
-from src.admin_login import Admin
+from menu import show_menu
+from user import User
+from user_managment import UserManager
+from admin_login import Admin
 
 def main():
     # admin_username, admin_pin_cod = admin_login()
