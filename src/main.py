@@ -25,7 +25,7 @@ def main():
             continue
 
         if choice == 1:
-            user_manager.list_users()
+            user_managment.list_users()
         elif choice == 2:
             name = input("Enter name: ")
             surname = input("Enter surname: ")
@@ -33,15 +33,15 @@ def main():
             address = input("Enter address: ")
             username = input("Enter username: ")
             pin_code = input("Enter pin code: ")
-            user_manager.add_user(name, surname, dob, address, username, pin_code)
+            user_managment.add_user(name, surname, dob, address, username, pin_code)
         elif choice == 3:
             username = input("Enter username to delete: ")
-            user_manager.delete_user(username)
+            user_managment.delete_user(username)
         elif choice == 4:
             username = input("Enter username to show: ")
-            user_manager.show_user(username)
+            user_managment.show_user(username)
         elif choice == 5:
-            user_manager.save_users()
+            user_managment.save_users()
             print("Database saved successfully.")
         elif choice == 6:
             print("More options are not implemented yet.")

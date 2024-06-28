@@ -1,7 +1,7 @@
 import os
 
 class UserManager:
-    def __init__(self, db_file='users_db.txt'):
+    def __init__(self, db_file='data_handler.py'):
         self.users = []
         self.db_file = db_file
         self.load_users()
