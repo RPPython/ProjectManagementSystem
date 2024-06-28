@@ -1,4 +1,5 @@
 import os
+from user import User
 
 class UserManager:
     def __init__(self, db_file='data_handler.py'):
