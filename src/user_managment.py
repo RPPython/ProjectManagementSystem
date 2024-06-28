@@ -20,7 +20,7 @@ class UserManager:
             for user in self.users:
                 file.write(f'{user.name},{user.surname},{user.dob},{user.address},{user.username},{user.pin_code}\n')
 
-    def add_user(self):
+    def add_user(self, name, surname, dob, address, username, pin_code):
         if self.find_user_by_username(username):
             print("Error: Username already exists.")
             return
@@ -30,6 +30,7 @@ class UserManager:
         new_user = User(name, surname, dob, address, username, pin_code)
         self.users.append(new_user)
         print("User added successfully.")
+
 
     def delete_user(self, username):
         user = self.find_user_by_username(username)
