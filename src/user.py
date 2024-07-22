@@ -1,3 +1,4 @@
+
 class User:
     def __init__(self, name, surname, dob, address, username, pin_code):
         self.name = name
@@ -8,4 +9,4 @@ class User:
         self.pin_code = pin_code
 
     def __str__(self):
-        return f'Name: {self.name}, Surname: {self.surname}, DOB: {self.dob}, Address: {self.address}, Username: {self.username}, PIN: {self.pin_code}'
+        return f'{self.name}, {self.surname}, {self.dob}, {self.address}, {self.username}, {self.pin_code}'

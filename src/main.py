@@ -17,39 +17,35 @@ def main():
 
     while True:
         show_menu()
+        choice = input("Enter your choice: ")
 
-        try:
-            choice = int(input("Enter your choice: "))
-        except ValueError:
-            print("Invalid input. Please enter a number between 1 and 7.")
-            continue
-
-        if choice == 1:
+        if choice == '1':
             user_managment.list_users()
-        elif choice == 2:
+        elif choice == '2':
             name = input("Enter name: ")
             surname = input("Enter surname: ")
-            dob = input("Enter date of birth (YYYY-MM-DD): ")
+            dob = input("Enter date of birth (dd-mm-yyyy): ")
             address = input("Enter address: ")
             username = input("Enter username: ")
             pin_code = input("Enter pin code: ")
             user_managment.add_user(name, surname, dob, address, username, pin_code)
-        elif choice == 3:
+        elif choice == '3':
             username = input("Enter username to delete: ")
             user_managment.delete_user(username)
-        elif choice == 4:
+        elif choice == '4':
             username = input("Enter username to show: ")
             user_managment.show_user(username)
-        elif choice == 5:
+        elif choice == '5':
             user_managment.save_users()
             print("Database saved successfully.")
-        elif choice == 6:
-            print("More options are not implemented yet.")
-        elif choice == 7:
-            print("Exiting the program.")
+        elif choice == '6':
+            print("More options will be available soon.")
+        elif choice == '7':
+            print("Quitting...")
             break
         else:
-            print("Invalid choice. Please select a valid option.")
+            print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
     main()
+    
