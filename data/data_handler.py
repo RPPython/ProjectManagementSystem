@@ -6,7 +6,6 @@ users_db = [
         'address' : 'Sofia, Str. Pleven 6',
         'username' : 'ss' ,
         'pin_code' : '0001'
-        
     },
     {
         'name': 'Mariya',
@@ -15,7 +14,6 @@ users_db = [
         'address' : 'Shumen,Str. Nancho Popovich 35a',
         'username' : 'mm' ,
         'pin_code' : '0002'
-        
     },
     {
         'name': 'Pavel',
@@ -24,7 +22,6 @@ users_db = [
         'address' : 'Sofia, Str. Usmivka 2',
         'username' : "pz",
         'pin_code' : '0003'
-        
     }
 ]
 
@@ -34,10 +31,12 @@ def get_user_by_key(key, value):
         return filtered_user[0]
     else:
         print(f'No user with {key}={value}')
-
+        return None
 
 if __name__=="__main__":
     username = input("Enter username of the user to view data: ")
     user = get_user_by_key(key='username', value=username)
-    print(user)
+    if user:
+        print(user)
+
 
