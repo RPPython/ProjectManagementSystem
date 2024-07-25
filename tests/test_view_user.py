@@ -1,6 +1,6 @@
-from data import data_handler
-from data_handler import users_db
-from users_db import get_user_by_key
+import os
+from user import User
+
 
 
 def view_user(user):
@@ -17,3 +17,4 @@ if __name__=='__main__':
     view_user(user)
 
 
+# TODOO
