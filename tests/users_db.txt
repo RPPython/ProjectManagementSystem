@@ -1,0 +1,3 @@
+Svetlin,Sofroniev,14/1/1976,Sofia, Str. Pleven 6,ss,0001
+Mariya,Mersinkova,15/9/1970,Shumen,Str. Nancho Popovich 35a,mm,0002
+Pavel,Zlatanov,20/5/1993,Sofia, Str. Usmivka 2,pz,0003
