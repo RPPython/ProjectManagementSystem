@@ -39,5 +39,6 @@ if __name__ == "__main__":
     # Print the loaded users to verify
     for user in manager.users:
         print(user)
+        
 
 

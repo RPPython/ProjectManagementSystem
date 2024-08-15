@@ -1,5 +1,5 @@
 from menu import show_menu
-from user import User
+from class_user import User
 from user_managment import UserManager
 from admin_login import Admin
 
