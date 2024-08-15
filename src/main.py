@@ -13,7 +13,7 @@ def main():
         exit() # exit the program
 
     user_managment = UserManager()
-    user = User()
+   
 
     while True:
         show_menu()
